@@ -1,0 +1,15 @@
+git init
+
+npm install
+
+npx hardhat compile
+
+npx hardhat run scripts/deploy.js --network baseSepolia
+
+- *After deployment:*
+npm run dev
+
+Then paste the deployed contract address into:
+src/config.js
+
+Done!
