@@ -1,0 +1,18 @@
+based-gm/
+│
+├── contracts/
+│   └── BasedGM.sol
+│
+├── scripts/
+│   └── deploy.js
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── config.js
+│   └── abi.js
+│
+├── hardhat.config.js
+├── package.json
+├── vite.config.js
+└── .env.example
